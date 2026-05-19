@@ -1,6 +1,6 @@
 import { describe, test, expect } from "vitest";
 import type { Product } from "../src/types.js";
-import { addProductToOrder } from "../src/addItemToOrder.js";
+import { addProductToOrder } from "../src/addProductToOrder.js";
 
 describe("Adding items", () => {
   test("Add a temporary hold of 1 to product customer adds to order", () => {
