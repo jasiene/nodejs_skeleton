@@ -4,8 +4,9 @@ export type Product = {
   id: ProductId;
   name: string;
   hold: number;
+  orderQuantity: number;
 };
 
 export type Order = {
-  items: Record<ProductId, Product>;
+  items: Array<Product>;
 };
